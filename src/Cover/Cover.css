@@ -1,0 +1,40 @@
+.cover img {
+  background-position: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 60%;
+  left: 40%;
+  color: #e5e4e2;
+  font-size: 50px;
+}
+.text h1 {
+  margin-top: 60px;
+  color: rgb(209, 208, 208);
+}
+.text h1 span {
+  color: rgb(49, 214, 255);
+}
+.text h2 {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.text button {
+  margin-top: 70px;
+  margin-left: 70px;
+  padding: 13px 24px;
+  border-radius: 25px;
+  background-color: rgb(154, 208, 221);
+  border: hidden;
+  font-size: 20px;
+}
+.text button:hover {
+  background-color: rgb(49, 214, 255);
+  transition: ease-in 0.5s;
+}

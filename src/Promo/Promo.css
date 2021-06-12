@@ -1,0 +1,38 @@
+.design {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #ff9933;
+  margin-top: 14vh;
+}
+
+.text-in {
+  position: relative;
+  right: 30%;
+  height: 50vh;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25vh;
+}
+.text-in h3 {
+  margin-top: 60px;
+  text-align: left;
+  font-family: "Montserrat";
+}
+.image img {
+  position: absolute;
+  margin-top: -60px;
+}
+.text-in button {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  padding: 9px 13px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}

@@ -1,0 +1,55 @@
+.logo h2 span {
+  color: rgb(32, 113, 206);
+}
+
+.logo {
+  margin: 6px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.Navbar {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav {
+  margin-left: 18vw;
+}
+nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  margin-top: 5px;
+  width: 15vw;
+  border-radius: 30px;
+  margin-left: 5vw;
+  padding: 7px;
+  position: relative;
+}
+.input button {
+  position: absolute;
+  right: 29em;
+  margin-top: 10px;
+  background-color: white;
+  border: hidden;
+}
+.cart {
+  width: 40px;
+  margin-left: 5vw;
+  margin-top: 10px;
+}
+.button {
+  background-color: rgb(32, 113, 206);
+  padding: 7px 20px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 5vw;
+  color: white;
+}

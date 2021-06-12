@@ -1,0 +1,22 @@
+.links {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+.links ul li {
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+.links ul li {
+  margin-left: 10vw;
+}
+.links ul li span {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}

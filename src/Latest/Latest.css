@@ -1,0 +1,46 @@
+.inline-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 25vh;
+  margin-bottom: 15vh;
+}
+
+.left {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 50px;
+}
+.right {
+  position: relative;
+  font-family: "Montserrat";
+}
+.right li:hover {
+  color: rgb(255, 51, 0);
+}
+.pics {
+  display: flex;
+
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  background: hidden;
+  left: 19vw;
+}
+.item1 {
+  margin-left: 4px;
+  margin-right: 8vw;
+}
+
+.item1 h4 {
+  text-align: center;
+}
+.item1 p {
+  text-align: center;
+}
+.item1 p span {
+  margin-left: 6px;
+  color: red;
+}
